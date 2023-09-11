@@ -32,6 +32,7 @@ section#telefone {
     width: 311px;
     background: url('../images/iphone.png') no-repeat center;
     background-size: cover;
+    padding-bottom: 1.55cm;
 }
 
 iframe#tela {
@@ -40,4 +41,25 @@ iframe#tela {
     left: 22px;
     width: 269px;
     height: 471px;
+}
+
+section#rede-social {
+    text-align: right;
+    text-decoration: none;
+    padding: 1.5cm;
+}
+
+section#rede-social img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+    margin-right: 3px;
+    margin-bottom: 6px;
+}
+
+a:hover {
+    border: double;
+    border-radius: 50%;
+    border-color: rgba(255, 255, 255, 0.801);
 }
