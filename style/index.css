@@ -16,6 +16,7 @@ body {
     background: url('../images/wood.jpg') no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
+    padding: 2cm;
 }
 
 main {
